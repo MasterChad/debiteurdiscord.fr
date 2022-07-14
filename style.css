@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#5865f2, #9293fa)
+}
+
+.kzx1 {
+    width: 100%;
+
+}
+
+
+.kzx1 img {
+    margin: 10px;
+    border-radius: 100%;
+    width: 200px;
+}
+
+.kzx1 h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100px;
+    color: white;
+}
+
+input[type=button] {
+    border: 2px solid white;
+    width: 200px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+.singes {
+    display: inline-flex;
+}
+
+.singes .singe {
+    margin: 50px;
+}
+
+.singes .singe img {
+    width: 150px;
+    border-radius: 100px;
+}
+
+.singes .singe h1 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+@media screen and (max-width: 888px) {
+    .kzx1 h1 {
+        font-size: 50px;
+    }
+
+    .singes .singe {
+        margin: 20px;
+    }
+
+    .singes {
+        display: inline-table;
+    }
+}
+
+
+
+@media screen and (max-width: 437px) {
+    .kzx1 h1 {
+        font-size: 30px;
+    }
+
+}
